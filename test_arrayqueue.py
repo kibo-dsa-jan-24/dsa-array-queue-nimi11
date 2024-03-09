@@ -44,3 +44,5 @@ class TestArrayQueue(unittest.TestCase):
         assert self.q.front() == 1
         assert self.q.dequeue() == 1
         assert self.q.front() == 2
+if __name__ == '__main__':
+    unittest.main()
